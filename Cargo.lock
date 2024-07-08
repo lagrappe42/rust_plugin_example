@@ -5,7 +5,7 @@ version = 3
 [[package]]
 name = "external_contracts"
 version = "0.1.0"
-source = "git+https://github.com/extendmepls/external_contracts#03ad8877714f4f000b7a6291dcfc324ef5ec121e"
+source = "git+https://github.com/extendmepls/external_contracts#63294cd38a6993a4b41d00aee874c4d434043469"
 
 [[package]]
 name = "rust_plugin_example"

@@ -1,6 +1,6 @@
 use external_contracts::{
     declare_app_extend,
-    plugin::{Context, Plugin},
+    plugin::{Plugin, PluginContext},
 };
 
 #[derive(Debug, Default)]
@@ -11,7 +11,7 @@ impl Plugin for MyPlugin {
         "MyPlugin"
     }
 
-    fn run(&self, ctx: &Context) {
+    fn run(&self, ctx: &PluginContext) {
         println!(
             "Running {}! Data from the context: {:?}",
             self.name(),
